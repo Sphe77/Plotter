@@ -4,11 +4,6 @@ from folium import Map
 from streamlit_folium import st_folium
 from streamlit_folium import folium_static
 
-
-# Read the CSV file into a dataframe
-file = r'D:\Checkers.csv'
-data = pd.read_csv(file)
-
 st.sidebar.title("Data Uploader")
 
 def main():
