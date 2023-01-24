@@ -11,8 +11,9 @@ def main():
     if file is not None:
         display_map(file)
 
-st.header('Checkers KwaZulu-Natal Store Finder')
-st.text('Locations of Checkers Stores in KwaZulu-Natal')
+title = st.text_input('Title', 'Excel Plotter')
+Desc = st.text_input('Description', 'Locations of Checkers Stores in KwaZulu-Natal')
+
 
 
 def display_map(file):
